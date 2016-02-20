@@ -16,7 +16,7 @@ Modify build.sh - set version of Golang you want to install (GO_VERSION variable
 After succesful compilation (it can take a while - up to 1 hour) you should see a message like this:
 ![](docs/build_finished.png)
 
-It means your new and shiny golang compiler is ready to do some work
+It means your new golang compiler is ready to do some work
 
 ## Tested on
 
