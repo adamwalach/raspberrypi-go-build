@@ -22,10 +22,10 @@ if [ ! -f "$SOURCE_FILE" ]; then
     tar -xzf $SOURCE_FILE
 fi
 
-if [ ! -d "go" ]; then
-    echo "Unpacking Golang source"
-    tar -vxzf go$GO_VERSION.src.tar.gz
-fi
+rm -rf go
+echo "Unpacking Golang source"
+tar -vxzf go$GO_VERSION.src.tar.gz
+
 
 cd go/src
 
