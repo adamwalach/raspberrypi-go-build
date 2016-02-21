@@ -2,7 +2,7 @@
 
 # based on http://dave.cheney.net/2015/09/04/building-go-1-5-on-the-raspberry-pi
 
-GO_VERSION=1.5.3
+GO_VERSION=1.6
 RUN_TESTS=false
 
 BOOTSTRAP_DIR=go-linux-arm-bootstrap
