@@ -5,11 +5,20 @@ Bootstrap file  and parts of code taken from http://dave.cheney.net/2015/09/04/b
 
 ## Installation
 
-git clone https://github.com/adamwalach/raspberrypi-go-build.git
+    git clone https://github.com/adamwalach/raspberrypi-go-build.git
 
 ## Usage
 
 Setup your environment - https://golang.org/doc/code.html#GOPATH
+
+Create workspace directory:
+
+    mkdir -p $HOME/go
+Add to .bashrc:
+
+    export GOPATH=$HOME/go
+    export GOBIN=$GOPATH/bin
+    export PATH=$PATH:$GOBIN
 
 Modify build.sh - set version of Golang you want to install (GO_VERSION variable).
 
